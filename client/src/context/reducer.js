@@ -222,7 +222,8 @@ const reducer = (state, action) => {
             case CHANGE_PAGE:
               return {
                 ...state,
-                page: action.payload.page,
+                // page: action.payload.page,
+                page: 1,
                 [action.payload.name]: action.payload.value 
               }
             default: 
