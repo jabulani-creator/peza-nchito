@@ -17,7 +17,7 @@ export const Stats = () => {
   return (
     <>
    <StatsContainer />
-   {monthlyApplications.length > 0 && <ChartsContainer />}
+   {monthlyApplications.toString().length > 0 && <ChartsContainer />}
    </>
   )
 }
